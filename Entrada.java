@@ -27,12 +27,16 @@ public class Entrada
     public int getCantidad(){
         return cantidad;
     }
-    
+
     public void setPrecio(int precio){
         this.precio = precio;
     }
-    
+
     public void setCantidad(int cantidad){
         this.cantidad = cantidad;
+    }
+
+    public String imprimirDetalles(){
+        return ("El precio es :" + precio + "Y hay un numero de entradas de :" + cantidad);
     }
 }

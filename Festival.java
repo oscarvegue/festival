@@ -46,6 +46,6 @@ public class Festival
     }
     
     public String imprimirDetalles(){
-        return ("El festival se llama" + nombreFestival + "Y tiene :" + numeroCantantes + "cantantes.");
+        return ("El festival se llama" + nombreFestival + "Y tiene :" + numeroCantantes + "cantantes. Y tiene un precio la entrada de: " + entrada.getPrecio() + " y hay : " + entrada.getCantidad() + " entradas.");
     }
 }
