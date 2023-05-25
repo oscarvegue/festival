@@ -44,4 +44,8 @@ public class Festival
     public void setEntrada(Entrada entrada){
         this.entrada = entrada;
     }
+    
+    public String imprimirDetalles(){
+        return ("El festival se llama" + nombreFestival + "Y tiene :" + numeroCantantes + "cantantes.");
+    }
 }
