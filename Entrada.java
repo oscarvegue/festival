@@ -13,10 +13,11 @@ public class Entrada
     /**
      * Constructor for objects of class Entrada
      */
-    public Entrada()
+    public Entrada(int pre, int cant)
     {
         // initialise instance variables
-
+        precio = pre;
+        cantidad = cant;
     }
 
 }
