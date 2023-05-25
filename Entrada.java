@@ -27,4 +27,12 @@ public class Entrada
     public int getCantidad(){
         return cantidad;
     }
+    
+    public void setPrecio(int precio){
+        this.precio = precio;
+    }
+    
+    public void setCantidad(int cantidad){
+        this.cantidad = cantidad;
+    }
 }
