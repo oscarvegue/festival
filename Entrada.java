@@ -20,4 +20,11 @@ public class Entrada
         cantidad = cant;
     }
 
+    public int getPrecio(){
+        return precio;
+    }
+
+    public int getCantidad(){
+        return cantidad;
+    }
 }
